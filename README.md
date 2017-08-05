@@ -1,5 +1,7 @@
 # CustomizeVisibileHeadersInSection
-This is an example project of how to change a header-in-section color during runtime.
+This is an example project of how to change a header-in-section color during runtime:
+
+https://github.com/OhadMaor/CustomizeVisibileHeadersInSection/blob/master/changing-headers-color-project.gif
 
 The example project is related to an article I wrote in the below link:
 https://medium.com/@ohadmaor/handling-visible-headers-in-section-using-swift-338621106d87
