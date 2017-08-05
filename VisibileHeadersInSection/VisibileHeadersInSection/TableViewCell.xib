@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aDc-vk-7tH" customClass="TableViewCell" customModule="VisibileHeadersInSection" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aDc-vk-7tH" id="Umr-mf-ueY">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fb1-SK-irh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.4947419763" blue="0.82208347319999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="fb1-SK-irh" secondAttribute="trailing" id="N8M-1D-IO2"/>
+                    <constraint firstItem="fb1-SK-irh" firstAttribute="top" secondItem="Umr-mf-ueY" secondAttribute="top" id="ZFo-Wj-YeB"/>
+                    <constraint firstAttribute="bottom" secondItem="fb1-SK-irh" secondAttribute="bottom" id="j54-LZ-3rG"/>
+                    <constraint firstItem="fb1-SK-irh" firstAttribute="leading" secondItem="Umr-mf-ueY" secondAttribute="leading" id="qTB-Ng-uNB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="randomLabel" destination="fb1-SK-irh" id="zHO-0P-Qom"/>
+            </connections>
+            <point key="canvasLocation" x="-117" y="331"/>
+        </tableViewCell>
+    </objects>
+</document>
